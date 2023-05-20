@@ -1,0 +1,57 @@
+body{
+    background: linear-gradient(rgb(214, 233, 214),rgb(135, 181, 135),rgb(185, 216, 185));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.results{
+    display: none;
+   padding: 50px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;   
+ text-align: center;
+}
+.game{
+    /*display: none;*/
+
+}
+.container{
+    background-color: aliceblue;
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
+.answer{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family:serif;
+}
+.content{
+    margin: 50px;
+}
+
+.submit{
+    background-color: darkgreen;
+    color: white;
+    border:none;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    bottom: 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+.correct{
+    color: green;
+}
+.wrong{
+    color: red;
+}
+.play{
+    background-color: darkgreen;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 7px 20px;
+}
